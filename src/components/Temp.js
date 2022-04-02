@@ -33,7 +33,7 @@ const Temp = () => {
         <>
             <div className="container">
                 <div className="row">
-                    <div className="left col-md-6 col-12">
+                    <div className="left col-md-6">
                         <div className="box">
                             {!city ? (<p>Please enter a precise location</p>) :
                                 (
@@ -60,7 +60,7 @@ const Temp = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="right col-md-6 col-12">
+                    <div className="right col-md-6">
                         <div className="chrt">
                             <Line
                                 data={{

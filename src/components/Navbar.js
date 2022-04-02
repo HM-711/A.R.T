@@ -1,12 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 const Navbar = (props) => {
   return (
     <div>
           <nav id='n' className={`navbar navbar-expand-lg navbar-${props.navcolor} bg-${props.navcolor}`}>
               <div className="container-fluid">
-                  <Link className="navbar-brand" to="/">A.R.T</Link>
+                  <a className="navbar-brand" href="/">A.R.T</a>
                   <button className="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">About</button>
               </div>
           </nav>
