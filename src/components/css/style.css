@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.box{
+    width: 50%;
+    margin: 15vh auto;
+    padding: 5%;
+    border-radius: 10%;
+    /* opacity: 0.9; */
+}
+
+.location{
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250%;
+}
+
+.location i{
+    margin-right: 15px;
+    color: white;
+}
+
+.localtemperature, .devicetemperature{
+    text-align: center;
+    margin: 25px 0px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.inputData{
+    margin: 25px 0px;
+}
+
+.inputData input{
+    display: block;
+    border-radius: 30px;
+    padding: 10px 5px;
+    margin: 10px auto;
+    margin-bottom: 1px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 125%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.box .btn{
+    display: block;
+    margin: 0px auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.box .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.right{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.chrt{
+    margin-bottom: 10%;
+}
+
+#n{
+    background: url("../assets/img1.jpg") no-repeat;
+}
+
+nav .btn{
+    border: 0px;
+    transition: 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+nav .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width:320px){
+    .box{
+        width: 90vw;
+        margin: 5vh auto 3vh auto;
+    }
+    .right{
+        margin: 10vh auto;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:700px){
+    .box{
+        width: 80vw;
+        margin: 5vh auto 3vh auto;
+    }
+    .right{
+        margin: 10vh auto;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width:1024px){
+    .box{
+        width: 35vw;
+    }
+    .right{
+        margin: 20vh auto;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1920px){
+    .box{
+        width: 35vw;
+        margin: 5vh auto;
+    }
+    .right{
+        margin: 10vh auto;
+    }
+}
+
+
+
+
